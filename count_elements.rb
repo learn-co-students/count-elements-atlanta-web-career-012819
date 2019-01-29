@@ -1,4 +1,4 @@
 def count_elements(array)
-  # code goes here
+  array.uniq.map { |x| [x, array.count(x)]}.to_h
+
 end
- 
